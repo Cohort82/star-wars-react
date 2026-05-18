@@ -19,13 +19,12 @@ const OpeningCrawl = () => {
 
     if (openingCrawl) {
         return (
-            <p className="far-galaxy fs-2 lh-lg">{openingCrawl}</p>
+            <p className="text-3xl text-justify leading-normal tracking-widest">{openingCrawl}</p>
         )
     } else {
         return (
-            <p className="far-galaxy fs-2 lh-lg">
-                <span className={'spinner-border spinner-border-sm m-1'}></span>
-                <span className={'spinner-grow spinner-grow-sm'}>Loading...</span>
+            <p className="text-3xl text-justify leading-normal tracking-widest">
+                Loading...
             </p>
         )
     }
