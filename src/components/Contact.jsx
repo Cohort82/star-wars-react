@@ -27,6 +27,7 @@ const Contact = () => {
         if (planets.length === 1){
             getPlanets().then(() => console.log('Planets were loaded'));
         }
+        return () => console.log('Contact component unmounted');
     }, [])
 
     return (
